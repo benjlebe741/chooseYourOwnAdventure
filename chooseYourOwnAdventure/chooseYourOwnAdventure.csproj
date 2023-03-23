@@ -93,5 +93,14 @@
   <ItemGroup>
     <None Include="Resources\images %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playerHeart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\67215__akosombo__xsnare-long1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5457__jovica__attack-zound-80.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
