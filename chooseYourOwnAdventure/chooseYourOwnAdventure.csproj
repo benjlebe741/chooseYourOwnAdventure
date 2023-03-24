@@ -102,5 +102,92 @@
   <ItemGroup>
     <None Include="Resources\5457__jovica__attack-zound-80.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page4.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

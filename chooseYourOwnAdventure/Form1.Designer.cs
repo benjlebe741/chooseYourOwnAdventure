@@ -128,7 +128,6 @@
             // 
             // imageBox
             // 
-            this.imageBox.BackgroundImage = global::chooseYourOwnAdventure.Properties.Resources.deepBrush;
             this.imageBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.imageBox.Location = new System.Drawing.Point(15, 160);
             this.imageBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -302,7 +301,7 @@
             this.Controls.Add(this.option2Label);
             this.Controls.Add(this.option1Label);
             this.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.imageBox)).EndInit();

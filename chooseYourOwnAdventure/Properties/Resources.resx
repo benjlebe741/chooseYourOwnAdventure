@@ -121,6 +121,93 @@
   <data name="deepBrush" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\deepBrush.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Page0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Page9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="playerHeart" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\playerHeart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -129,7 +216,7 @@
         AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19v
         cmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhw
         b3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgB
-        AQEBCQIAAAAAAAAAAAAAALzAAQC8wAEAAAEAAQoPAgAAALzAAQACUklGRrTAAQBXQVZFZm10IBAAAAAB
+        AQEBCQIAAAAAAAAAvMABALzAAQC8wAEAAAEAAQoPAgAAALzAAQACUklGRrTAAQBXQVZFZm10IBAAAAAB
         AAEARKwAAIhYAQACABAAUEFEIMwPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -2052,7 +2139,7 @@
         AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19v
         cmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhw
         b3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgB
-        AQEBCQIAAAAAAAAAAAAAAORKAwDkSgMAAAEAAQoPAgAAAORKAwACUklGRtxKAwBXQVZFZm10IBAAAAAB
+        AQEBCQIAAAAAAAAA5EoDAORKAwDkSgMAAAEAAQoPAgAAAORKAwACUklGRtxKAwBXQVZFZm10IBAAAAAB
         AAIARKwAABCxAgAEABAATElTVMYAAABJTkZPSU5BTQwAAABhdHRhY2sgbG9vcABJU0JKBgAAAGxvb3AA
         AElFTkcOAAAASm92aWNhIFN0b3JlcgBJQ09QDgAAAEpvdmljYSBTdG9yZXIASUdOUggAAAB0ZWNobm8A
         AElBUlQOAAAASm92aWNhIFN0b3JlcgBJS0VZFAAAAHRlY2hubyBsb29wIDE0MCBicG0ASVNGVA4AAABX

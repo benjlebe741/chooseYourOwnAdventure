@@ -52,23 +52,23 @@ namespace chooseYourOwnAdventure
         {
             // new Page(new string[] {Header-text, Option-Texts}, new int[] {Take-me-to-page __ based-on-the-option-#}, Image-To-Display })
             #region Page0 
-            new Page(new string[] { "CURRENTLY EMPTY", }, new int[] {}, Resources.deepBrush),
+            new Page(new string[] { "CURRENTLY EMPTY", }, new int[] {}, Resources.Page0),
 #endregion
             #region Page1
-            new Page(new string[] { "SOUPER CEREAL SIMULATOR@", "BEGIN@", "EXIT@" }, new int[] {2,0}, Resources.deepBrush),
+            new Page(new string[] { "SOUPER CEREAL SIMULATOR@", "BEGIN@", "EXIT@" }, new int[] {2,0}, Resources.Page1),
 #endregion
             #region Page2
-            new Page(new string[] { "<<<<<<<<<<>>>Welcome to Souper Cereal Simulator!@","Add MILK@","Add CEREAL" }, new int[] {3,4}, Resources.deepBrush),
+            new Page(new string[] { "<<<<<<<<<<>>>Welcome to Souper Cereal Simulator!@","Add MILK@","Add CEREAL" }, new int[] {3,4}, Resources.Page2),
 #endregion
             #region Page3
-            new Page(new string[] { "But there is no cereal!!?@","Add Cereal?","Refuse." }, new int[] {5,6}, Resources.deepBrush),
+            new Page(new string[] { "But there is no cereal!!?@","Add Cereal?","Refuse." }, new int[] {5,6}, Resources.Page3),
 #endregion
             #region Page4
             new Page(new string[] {
                 "You dumped out more than necessary...@@%Adding any milk at all would overflow onto your fine silk tablecloth due to the absolutely unnecessary amount of cereal in this bowl.@",
                 "Add Milk@",
                 "Walk away and take a second to think about things"
-            }, new int[] {7,8}, Resources.deepBrush),
+            }, new int[] {7,8}, Resources.Page4),
 #endregion
             #region Page5
             new Page(new string[] {
@@ -78,14 +78,14 @@ namespace chooseYourOwnAdventure
             "Feel ambitious; you have built a bridge to something beyond real.@",
             "Impossibly small and impossibly big@%Feel inadequate; the world shrinks itself around you."
 
-            }, new int[] {9,10,11,12}, Resources.deepBrush),
+            }, new int[] {9,10,11,12}, Resources.Page5),
 #endregion
             #region Page6
             new Page(new string[] {
                 "Your bowl of milk disappoints you...@@ after some time the duck you stole begins to swim circles in the only liquid it can see.@ There is now a duck in your cereal.@@",
                 "Eat anyway@",
                 "Eat around it"
-            }, new int[] {13,14}, Resources.deepBrush),
+            }, new int[] {13,14}, Resources.Page6),
 #endregion
             #region Page7
             new Page(new string[] {
@@ -95,7 +95,7 @@ namespace chooseYourOwnAdventure
                 "Swept into the undertow you find your lungs filling- before you can cry milky screams you pass out...@",
                 "Surrender your last breaths@",
                 "Wake up"
-            }, new int[] {0,15}, Resources.deepBrush),
+            }, new int[] {0,15}, Resources.Page7),
 #endregion
             #region Page8
             new Page(new string[] {
@@ -108,7 +108,7 @@ namespace chooseYourOwnAdventure
                 "Its been a while.@ You aren't going to see them again...@ you aren't going to get them back.@@ ",
                 "Begin to eat the cereal",
                 "Step away from the cereal"
-            }, new int[] {16,17}, Resources.deepBrush),
+            }, new int[] {16,17}, Resources.Page8),
         #endregion
             #region Page9
         new Page(new string[] {
@@ -117,7 +117,7 @@ namespace chooseYourOwnAdventure
             "Your interactions have affect on the world:@ You@ have@ correctly@ made@ cereal.@@",
             "Play again",
             "Exit"
-            }, new int[] {2,0}, Resources.deepBrush),
+            }, new int[] {2,0}, Resources.Page9),
         
 #endregion
             #region Page10
@@ -126,7 +126,7 @@ new Page(new string[] {
     "The milk is cool and thin and light.. the flavor rushes through you like a refreshing shower. You are more awake now,@ you have made cereal.@@",
                 "Play Again",
                 "Exit"
-            }, new int[] {2,0}, Resources.deepBrush),
+            }, new int[] {2,0}, Resources.Page10),
         #endregion
             #region Page11
         new Page(new string[] {
@@ -134,7 +134,7 @@ new Page(new string[] {
             " this massive amount of concentrated ambition causes you to impulsively break the bowl of cereal over your head.@@%You certainly made cereal.",
                 "Play Again",
                 "Exit"
-            }, new int[] {2,0}, Resources.deepBrush),
+            }, new int[] {2,0}, Resources.Page11),
         
 #endregion
             #region Page12
@@ -143,21 +143,21 @@ new Page(new string[] {
     "All your progress passes you by as you leave your cares behind.@",
                 "Play Again@",
                 "Exit"
-            }, new int[] { 2, 0 }, Resources.deepBrush),
+            }, new int[] { 2, 0 }, Resources.Page12),
         #endregion
             #region Page13
         new Page(new string[] {
                 "You have eaten the duck.@@ Its soul heals your weakened body,@ but its teeth much< munch< munch< and you die.@",
                 "Play Again@",
                 "Exit"
-            }, new int[] { 2, 0 }, Resources.deepBrush),
+            }, new int[] { 2, 0 }, Resources.Page13),
 #endregion
             #region Page14
         new Page(new string[] {
                 "The duck blesses you for passing its test of benevolence.@ It spits out its dentures and transforms into the spiritual embodiment of milk.@ Thats probably why its still around when you forgot what ducks eat and drink....@",
                 "Play Again@",
                 "Exit"
-            }, new int[] { 2, 0 }, Resources.deepBrush),
+            }, new int[] { 2, 0 }, Resources.Page14),
 #endregion
             #region Page15
         new Page(new string[] {
@@ -166,14 +166,14 @@ new Page(new string[] {
             "Their deep voice fills the heavens...@@ \"Welcome to souper cereal simulator :)\"@",
                 "Add Cereal@",
                 "Add Milk"
-            }, new int[] { 18, 19 }, Resources.deepBrush),
+            }, new int[] { 18, 19 }, Resources.Page15),
 #endregion
             #region Page16
         new Page(new string[] {
                 "Your teeth slowly crumble after each bite of cereal;<@ the compact rocklike structure breaks you down as you try to break down it.@",
                 "Break the glass on emergency dentures case@",
                 "\"GOSH GOLLIE MA TOOTTHS\""
-            }, new int[] {20, 21}, Resources.deepBrush),
+            }, new int[] {20, 21}, Resources.Page16),
             #endregion
             #region Page17
         new Page(new string[] {
@@ -181,7 +181,7 @@ new Page(new string[] {
             "Your suffering breaks your heart(s)@<@<",
             "Leave",
             "Choose Forgiveness"
-        }, new int[] {22, 23}, Resources.deepBrush),
+        }, new int[] {22, 23}, Resources.Page17),
 
             #endregion
             #region Page18
@@ -190,7 +190,7 @@ new Page(new string[] {
             "This is beyond the modern understanding of snacks;@ countless eras have been lost with the people who belonged to them only present in their sacrifices and contributions to a modern society.@ All of humanities contributions could have lead to this very moment.@ A voice reaches out to you.@ Follow?@",
             "Yes",
             "No"
-        }, new int[] {24, 25}, Resources.deepBrush),
+        }, new int[] {24, 25}, Resources.Page18),
 
             #endregion
             #region Page19
@@ -199,7 +199,7 @@ new Page(new string[] {
             "Just as lucifer fell from above so hath the milk as Odin'th's words curthed I.@ The bounds of the realm fall to the depths of the darkest hole, your milk runneth dry and the bowl transforms into a representation of bad stuff.@ Odin punches you a lot.<@<@<<<<<<<<%",
             "Play Again@",
             "Exit"
-        }, new int[] {2, 0}, Resources.deepBrush),
+        }, new int[] {2, 0}, Resources.Page19),
 
             #endregion
             #region Page20
@@ -209,7 +209,7 @@ new Page(new string[] {
             "Where could your dentures have gone?@ You refuse to acknowledge the pain, but you cannot help choke and fall to the floor...@ The last thing your eyes can make out are the wholes in your mothers silk cloth..@< they do look awfully tooth..@<toothy..@<",
             "Play Again@",
             "Exit"
-        }, new int[] {2, 0}, Resources.deepBrush),
+        }, new int[] {2, 0}, Resources.Page20),
 
             #endregion
             #region Page21
@@ -217,14 +217,14 @@ new Page(new string[] {
             "You acknowledge the pain.@< You acknowledge the choices you have made have hurt you.< The world is the same but the pain is real;< the world feels more real,<@ not to YOU, but to HIM.@<",
             "Play Again@",
             "Exit"
-        }, new int[] {2, 0}, Resources.deepBrush),
+        }, new int[] {2, 0}, Resources.Page21),
 
             #endregion
             #region Page22
         new Page(new string[] {
             "You abandon the game.@ There is no replaying this time.@",    
             "Exit"
-        }, new int[] {0}, Resources.deepBrush),
+        }, new int[] {0}, Resources.Page22),
 
             #endregion
             #region Page23
@@ -232,7 +232,7 @@ new Page(new string[] {
             "The duck clacks on in the background...@ the pond lays its head without its friend... they are gone... and you will move on.@",
             "Play Again@",
             "Exit"
-        }, new int[] {2, 0}, Resources.deepBrush),
+        }, new int[] {2, 0}, Resources.Page23),
 
             #endregion
             #region Page24
@@ -240,7 +240,7 @@ new Page(new string[] {
             "The hierarchy bows to you.@ A king of this world, your stats are maxed out;@ your health grander than any other beings; your power maxed.@ You have beaten the game.@ He can live on a true deity in the eyes of all that enjoy flaky flake flakes. You can exit the program or play again." +
             "@@%The only power holding YOU is a denial of artificial choices.@ Thank you for playing.@ You will not continue this run.@",
             "Exit"
-        }, new int[] {0}, Resources.deepBrush),
+        }, new int[] {0}, Resources.Page24),
 
             #endregion
             #region Page25
@@ -249,7 +249,7 @@ new Page(new string[] {
             "@@%There is always a way out, and always a way through.",
             "Play Again@",
             "Exit"
-        }, new int[] {2, 0}, Resources.deepBrush),
+        }, new int[] {2, 0}, Resources.Page25),
 
             #endregion
             #region Page26
@@ -257,7 +257,7 @@ new Page(new string[] {
             "You added an appropriate amount of cereal to an appropriate amount of bowl.@ Odin smiles slightly from behind my computer screen as the cereal being morally correct satisfies her. she criticizes the talking people around me and informs them about their misdoings, what should I do now?@",
             "Continue working on my computer science project@",
             "Have you seen\"ratatouille 2 the rattening\"? Its a hit!"
-        }, new int[] {27, 28}, Resources.deepBrush),
+        }, new int[] {27, 28}, Resources.Page26),
 
             #endregion
             #region Page27
@@ -266,7 +266,7 @@ new Page(new string[] {
             "@@%But what becomes this worlds reality if it exists inside itself?@ A game watching the onslaught of time gazing into its own creation with full knowledge its actions are entirely ineffective in affecting the world." +
             "@@%There is no health; there is no end nor beginning.@",
             "Exit"
-        }, new int[] {0}, Resources.deepBrush),
+        }, new int[] {0}, Resources.Page27),
 
             #endregion
             #region Page28
@@ -277,7 +277,7 @@ new Page(new string[] {
             "@@%Now the connection between hunger, desire, and rage, and the affect on the physical world; this a bridge unable to be severed after construction.",
             "Play Again?:)@",
             "Here is the exit if you would like:)"
-        }, new int[] {2, 0}, Resources.deepBrush),
+        }, new int[] {2, 0}, Resources.Page28),
 
             #endregion
         };
