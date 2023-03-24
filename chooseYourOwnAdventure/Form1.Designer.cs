@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.option1Label = new System.Windows.Forms.Label();
             this.option2Label = new System.Windows.Forms.Label();
             this.option3Label = new System.Windows.Forms.Label();
@@ -301,9 +302,10 @@
             this.Controls.Add(this.option2Label);
             this.Controls.Add(this.option1Label);
             this.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "SOUPER CEREAL SIMULATOR";
             ((System.ComponentModel.ISupportInitialize)(this.imageBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.heartContainer4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.heartContainer3)).EndInit();
