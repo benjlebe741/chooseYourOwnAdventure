@@ -20,37 +20,39 @@ using System.Net.NetworkInformation;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrayNotify;
-using System.Media;
 
 // CHOOSE YOUR OWN ADVENTURE GAME
 // Ben Leberg
 // Started:         March, 10, 2023
-// Submitted:       March, 24, 2023
+// Submitted:       March, 27, 2023
 
 namespace chooseYourOwnAdventure
 {
     public partial class Form1 : Form
     {
         #region Global Variables
-        //keeping track of what page you are on
+        //Current Page and "Hearts":
         int currentPage = 1;
-        //keeping track of player health
         int playerHealth = 3;
-        //random generator
+
+        //random generator:
         Random randGen = new Random();
-        //list to look at all output labels
+
+        //Lists: Storing all labels and Heart images
         List<Label> allOutputs = new List<Label>();
         List<PictureBox> allHearts = new List<PictureBox>();
-        //Sound Players
+
+        //Sound Players: 
         SoundPlayer Sound1 = new SoundPlayer(Resources.Sound1);
         SoundPlayer Sound2 = new SoundPlayer(Resources.Sound2);
         #endregion
 
         #region All Page Info!
-        // All information for each page
+        //Stores all pages:
         Page[] pageIndex =
         {
-            // new Page(new string[] {Header-text, Option-Texts}, new int[] {Take-me-to-page __ based-on-the-option-#}, Image-To-Display })
+            //Each page is laid out as follows, with strings for text and integers for the pages that you will be taken to:
+            //new Page(new string[] {outputLabel Text, option#Label Texts}, new int[] {option#Label Click takes you to page __}, Image to display)
             #region Page0 
             new Page(new string[] { "CURRENTLY EMPTY", }, new int[] {}, Resources.Page0),
 #endregion
@@ -222,7 +224,7 @@ new Page(new string[] {
             #endregion
             #region Page22
         new Page(new string[] {
-            "You abandon the game.@ There is no replaying this time.@",    
+            "You abandon the game.@ There is no replaying this time.@",
             "Exit"
         }, new int[] {0}, Resources.Page22),
 
@@ -287,43 +289,37 @@ new Page(new string[] {
         public Form1()
         {
             InitializeComponent();
-            //fill the label list 
+
+            //Fill Each List with Labels and PictureBoxes:
+
+            //outputLabel and all 4 option#Labels
             allOutputs = new List<Label>()
-        {
-        outputLabel,
-        option1Label,
-        option2Label,
-        option3Label,
-        option4Label
-        };
+        { outputLabel, option1Label, option2Label, option3Label, option4Label };
+
+            //all 10 Heart PictureBoxes
             allHearts = new List<PictureBox>()
-        {
-      heartContainer1,
-      heartContainer2,
-      heartContainer3,
-      heartContainer4,
-      heartContainer5,
-      heartContainer6,
-      heartContainer7,
-      heartContainer8,
-      heartContainer9,
-      heartContainer10
-        };
+        { heartContainer1, heartContainer2, heartContainer3, heartContainer4, heartContainer5, heartContainer6, heartContainer7, heartContainer8, heartContainer9, heartContainer10 };
+
+
+            //Both "playerHealth" and all pages are global variables, so to use "playerHealth" in a page, we have to say so here.
+            pageIndex[0].outputLabelTexts[0] = $"You made souper choices! You had: {playerHealth} Hearts! Goodbye!@@";
+
+
             //start the game off on page 1
             createPage(1);
-            //put pre-defined variables into pre-defined strings!
-            pageIndex[0].outputLabelTexts[0] = $"You made souper choices! You had: {playerHealth} Hearts! Goodbye!@@";
         }
         #endregion
 
         #region CREATE PAGE
         void createPage(int pageNumber)
-        {  
-            //update current page and current image
+        {
+            //Update Current Page:
             currentPage = pageNumber;
+
+            //Display Current Image:
             imageBox.Image = pageIndex[pageNumber].image;
 
-            //check to see what outputs are visible on each page
+            //check which outputs are visible on the Current Page:
             for (int x = 0; x < allOutputs.Count - 1; x++)
             {
                 if (pageIndex[pageNumber].pathOptions.Length >= (x + 1))
@@ -332,28 +328,31 @@ new Page(new string[] {
                 { buttonLabelToggle(x, false); }
             }
 
-            //print each textbox, reset all textboxes and then fill them out one letter at a time! 
-            //reset all texts
+            //PRINTING TEXT: 
+            //First; Reset all output texts:
             foreach (Label label in allOutputs)
             {
                 label.Text = "";
                 wait(1);
             }
-            //fill out each letter
+            
+            //Second; Print out each letter one at a time; if the character is "Special", follow the case output instead:
+            //Define "x" as the current output label.
             for (int x = 0; x <= pageIndex[pageNumber].outputLabelTexts.Length - 1; x++)
             {
+                //for each character in the current output label; check what character it is:
                 foreach (char letter in pageIndex[pageNumber].outputLabelTexts[x])
                 {
-                    //any special letters do special things!
                     switch ($"{letter}")
                     {
+                        //"Special" Characters:
                         case "@":
                             wait(1300);
                             break;
                         case "%":
                             wait(1700);
                             allOutputs[x].Text = "";
-                            break; 
+                            break;
                         case "<":
                             displayHearts(-1);
                             Sound1.Play();
@@ -361,7 +360,9 @@ new Page(new string[] {
                         case ">":
                             Sound1.Play();
                             displayHearts(1);
-                            break;                        //otherwise print the letter!
+                            break;                        
+
+                        //Default Prints the letter:
                         default:
                             allOutputs[x].Text += letter;
                             wait(1);
@@ -370,18 +371,16 @@ new Page(new string[] {
                 }
             }
 
-            //any special actions on specifc pages
+            //Specific actions on specifc pages:
             switch (pageNumber)
             {
-                //page 0 ends the game
+                //page 0 ends the game:
                 case 0:
                     System.Windows.Forms.Application.Exit();
                     break;
-                //page 2 sets the players health
+                //page 2 sets the players health to 3:
                 case 2:
-                    //set player health
                     playerHealth = 3;
-                    //display player health
                     displayHearts(0);
                     break;
             }
@@ -389,16 +388,17 @@ new Page(new string[] {
         #endregion
 
         #region Engable Or Disable Lables
-        //function enabling or disabling lables (this will depend on what options the page gives the player) 
+        //function enabling or disabling lables (this will depend on how many options the page gives the player) 
         void buttonLabelToggle(int x, bool trueOrFalse)
         {
+            //"x" is the specified option#Label; I specify [x + 1] because the top output label is in slot 0 and it is always enabled.
             allOutputs[x + 1].Enabled = trueOrFalse;
             allOutputs[x + 1].Visible = trueOrFalse;
         }
         #endregion
 
         #region Wait Function
-        //wait function
+        //Wait Function:
         void wait(int waitTime)
         {
             Refresh();
@@ -409,16 +409,17 @@ new Page(new string[] {
         #region Display Hearts Function
         void displayHearts(int affectHealth)
         {
-            //affect the global variable to track correctly
+            //Add/Subtract "affectHealth" to the playerHealth:
             playerHealth += affectHealth;
 
-            //if the players health has gone too low set it to 0
+            //If the players health has gone below 0, set it to 0:
             if (playerHealth < 0) { playerHealth = 0; }
-            //if the players health has gone too far set it back to max health; these allow me to add a whole bunch of hurt/heal without worrying about how much im hurting/healing
+
+            //if the players health has gone beyond the total health, set it back to max health:
+            //(these allow me to add a whole bunch of hurts/heals without worrying about how much im hurting/healing)
             else if (playerHealth > allHearts.Count) { playerHealth = allHearts.Count; }
 
-            //for the hearts that are inside the players health, display each heart
-            //for the hearts that are not inside the players health, turn them all off
+            //For each heart PictureBox, if its number in the list is greater than the players current health, don't show it.
             int y = 0;
             foreach (PictureBox heart in allHearts)
             {
@@ -430,7 +431,7 @@ new Page(new string[] {
         #endregion
 
         #region Label Clicks
-        //inputs from player
+        //inputs from player:
         private void option1Label_Click(object sender, EventArgs e)
         {
             createPage(pageIndex[currentPage].pathOptions[0]);
@@ -438,16 +439,18 @@ new Page(new string[] {
 
         private void option2Label_Click(object sender, EventArgs e)
         {
-            //if the page is determined by a randomization, do the calculations
+            //If the page is determined by a randomization:
             switch (currentPage)
             {
                 case 2:
+                    //Generate a random number; if its greater than a value, create a different page.
                     int randomValue = randGen.Next(1, 11);
                     if (randomValue >= 5)
                     {
                         createPage(26);
                     }
                     break;
+                    //Otherwise just create the regular page:
                 default:
                     createPage(pageIndex[currentPage].pathOptions[1]);
                     break;
