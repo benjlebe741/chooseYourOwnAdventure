@@ -313,6 +313,9 @@ new Page(new string[] {
         #region CREATE PAGE
         void createPage(int pageNumber)
         {
+            //Play a sound:
+            Sound2.Play();
+
             //Update Current Page:
             currentPage = pageNumber;
 
