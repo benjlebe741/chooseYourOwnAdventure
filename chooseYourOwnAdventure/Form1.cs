@@ -46,7 +46,6 @@ namespace chooseYourOwnAdventure
         //Sound Players: 
         SoundPlayer Sound1 = new SoundPlayer(Resources.Sound1);
         SoundPlayer Sound2 = new SoundPlayer(Resources.Sound2);
-        SoundPlayer Click = new SoundPlayer(Resources.click);
         #endregion
 
         #region All Page Info!
@@ -357,7 +356,7 @@ new Page(new string[] {
                         case "%":
                             wait(1700);
                             allOutputs[x].Text = "";
-                            Click.Play();
+                            Sound2.Play();
                             break;
                         case "<":
                             displayHearts(-1);
@@ -451,7 +450,7 @@ new Page(new string[] {
                 case 2:
                     //Generate a random number; if its greater than a value, create a different page.
                     int randomValue = randGen.Next(1, 11);
-                    if (randomValue => 8)
+                    if (randomValue >= 8)
                     {
                         createPage(26);
                     }
@@ -459,7 +458,6 @@ new Page(new string[] {
                     {
                         createPage(pageIndex[currentPage].pathOptions[1]);
                     }
-
                     break;
                     //Otherwise just create the regular page:
                 default:
