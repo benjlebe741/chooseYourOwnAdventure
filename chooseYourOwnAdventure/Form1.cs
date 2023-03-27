@@ -20,6 +20,7 @@ using System.Net.NetworkInformation;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrayNotify;
+using static System.Windows.Forms.LinkLabel;
 
 // CHOOSE YOUR OWN ADVENTURE GAME
 // Ben Leberg
@@ -45,6 +46,7 @@ namespace chooseYourOwnAdventure
         //Sound Players: 
         SoundPlayer Sound1 = new SoundPlayer(Resources.Sound1);
         SoundPlayer Sound2 = new SoundPlayer(Resources.Sound2);
+        SoundPlayer Click = new SoundPlayer(Resources.click);
         #endregion
 
         #region All Page Info!
@@ -355,6 +357,7 @@ new Page(new string[] {
                         case "%":
                             wait(1700);
                             allOutputs[x].Text = "";
+                            Click.Play();
                             break;
                         case "<":
                             displayHearts(-1);

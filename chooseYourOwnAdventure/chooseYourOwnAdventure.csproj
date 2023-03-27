@@ -189,5 +189,8 @@
   <ItemGroup>
     <None Include="Resources\Page4.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5457__jovica__attack-zound-801.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
