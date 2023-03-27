@@ -451,10 +451,15 @@ new Page(new string[] {
                 case 2:
                     //Generate a random number; if its greater than a value, create a different page.
                     int randomValue = randGen.Next(1, 11);
-                    if (randomValue >= 5)
+                    if (randomValue => 8)
                     {
                         createPage(26);
                     }
+                    else 
+                    {
+                        createPage(pageIndex[currentPage].pathOptions[1]);
+                    }
+
                     break;
                     //Otherwise just create the regular page:
                 default:
